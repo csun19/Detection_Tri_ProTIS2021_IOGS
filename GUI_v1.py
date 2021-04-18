@@ -25,7 +25,6 @@ notice.pack()
 # Detection live view
 def callback_test():
     mod_detect()
-     #os.system('python Main_Detect.py')
     
 button_test = tk.Button(window, text='detect', width=5, height=1, command=callback_test)
 button_test.place(x=200,y=60,anchor='nw')
